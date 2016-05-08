@@ -1,0 +1,2 @@
+# slidesRotate
+slides rotating effect
