@@ -1,0 +1,10 @@
+command + [ / ] 左/右 移动
+each遍历jquery对象集合，每一轮遍历this为当前被遍历jquery对象。
+构造函数中用var定义的变量只在构造函数域中可被访问，this让其对象也都具备此变量
+在设置背景色及其他相关属性时注意当无效果时有可能是后面设置的相关属性将其覆盖。
+The Math.ceil() function returns the smallest integer greater than or equal to a given number.//
+向上取整
+The Math.floor() function returns the largest integer less than or equal to a given number.//向下取整
+
+
+

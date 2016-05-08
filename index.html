@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Slides</title>
+	<link rel="stylesheet" href="css/carousel.css">
+	<script src="javascripts/jquery-1.11.3.js"></script>
+	<script src="javascripts/carousel.js"></script>
+
+</head>
+<body style="padding: 50px">
+	
+
+	<div class="J_Poster poster-main" data-settings='{
+				"width":800,
+				"height":270,
+				"posterWidth":540,
+				"posterHeight":270,
+			 	"scale":0.9,
+				"speed":500,
+				"autoPlay":true,
+				"delay":3000,
+				"verticalAlign":"center"}'>
+		<div class="poster-btn poster-prev-btn"></div>
+			<ul class="poster-list">
+				<li class="poster-item"><a href="#"><img src="images/1.jpg" width="100%"></a></li>
+				<li class="poster-item"><a href="#"><img src="images/2.jpg" width="100%"></a></li>
+				<li class="poster-item"><a href="#"><img src="images/3.jpg" width="100%"></a></li>
+				<li class="poster-item"><a href="#"><img src="images/4.jpg" width="100%"></a></li>
+				<li class="poster-item"><a href="#"><img src="images/5.jpg" width="100%"></a></li>
+			</ul>
+		<div class="poster-btn poster-next-btn"></div>
+	</div>
+	
+	<script type="text/javascript">
+		
+
+	$(function(){
+		// Carousel class
+		//var carousel = new Carousel($('.J_Poster').eq(0));
+		
+		// Initialize all J_Poster class
+		// var settings = {
+		// 		// the outer div
+		// 		width:1000,
+		// 		height:270,
+		// 		// settings for each image
+		// 		posterWidth:640,
+		// 		posterHeight:270
+		// 		// this carousel effect has three styles: bottom align, center align and top align   verticalAlign:"center"
+		// 		// The opacity for each image behind
+		// 		scale:0.9,
+		// 		// the speed of slide
+		// 		speed:500
+		// 		
+		// }
+		Carousel.init($('.J_Poster'));
+		
+	});
+
+
+	</script>
+
+</body>
+</html>
